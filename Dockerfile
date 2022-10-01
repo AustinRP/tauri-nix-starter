@@ -12,8 +12,5 @@ RUN apt-get update && apt-get install -y \
         libgtk-3-dev \
         libayatana-appindicator3-dev \
         librsvg2-dev
-#COPY src src-tauri .
-
-#RUN cargo tauri build
 
 cmd ["cargo", "tauri", "build"]
