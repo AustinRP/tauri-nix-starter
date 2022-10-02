@@ -27,10 +27,6 @@ let
     webkitgtk
     appimagekit
 
-    # added these as necessary dependencies
-    cargo
-    rustc
-
     # personal additions
     just
   ];
